@@ -83,3 +83,21 @@ http://git-annex.branchable.com/walkthrough/ #see ssh section
 `git annex drop mybigfile`  remove content from local repo  
 `git annex get mybigfile`   retrieve the content  
 `git annex copy --from myremote mybigfile`specify the remote from which to get the file  
+
+
+#connect through remove url using ssh key
+`Create a new repository, or reuse an existing one.
+
+`Generate a new SSH key:
+
+`ssh-keygen -t rsa -C "your_email@example.com"
+`Copy the contents of the file ~/.ssh/id_rsa.pub to your SSH keys in your GitHub account settings.
+
+`Test SSH key:
+
+`$ ssh -T git@github.com
+`Hi developius! You've successfully authenticated, but GitHub does not provide shell access.
+`Change directory into the local clone of your repository (if you're not already there) and run:
+
+`git remote set-url origin git@github.com:username/your-repository.git
+
