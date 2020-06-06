@@ -85,7 +85,7 @@ http://git-annex.branchable.com/walkthrough/ #see ssh section
 `git annex copy --from myremote mybigfile`specify the remote from which to get the file  
 
 
-###connect through remove url using ssh key
+### connect through remove url using ssh key
 
 `Create a new repository, or reuse an existing one on git.`
 `Generate a new SSH key:`
