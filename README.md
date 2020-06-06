@@ -101,3 +101,5 @@ http://git-annex.branchable.com/walkthrough/ #see ssh section
 
 `git remote set-url origin git@github.com:username/your-repository.git`
 
+*****************
+
