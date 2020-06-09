@@ -87,17 +87,17 @@ http://git-annex.branchable.com/walkthrough/ #see ssh section
 
 ### connect through remove url using ssh key
 
-`Create a new repository, or reuse an existing one on git.`
+`Create a new repository, or reuse an existing one on git.` <br/>
 `Generate a new SSH key:`
 
-`ssh-keygen -t rsa -C "your_email@example.com"`
+`ssh-keygen -t rsa -C "your_email@example.com"` <br/>
 `Copy the contents of the file ~/.ssh/id_rsa.pub to your SSH keys in your GitHub account settings.`
 
-`Test SSH key:`
+`Test SSH key:` <br/>
 
-`$ ssh -T git@github.***.***.corp`
-`Hi developius! You've successfully authenticated, but GitHub does not provide shell access.`
-`Change directory into the local clone of your repository (if you're not already there) and run:`
+`$ ssh -T git@github.***.***.corp` <br/>
+`Hi developius! You've successfully authenticated, but GitHub does not provide shell access.` <br/>
+`Change directory into the local clone of your repository (if you're not already there) and run:` <br/>
 
 `git remote set-url origin git@github.com:username/your-repository.git`
 
@@ -106,28 +106,28 @@ http://git-annex.branchable.com/walkthrough/ #see ssh section
 
 #`git Local repository command `
 
-`git init`			 				initialize local git repository 
-`git status`							Stage check for file
-`git add file_name`						Add file for stage
-`git add .`							Add all file for stage
-`git commit -m "message"`					Commit file
-`git log `							History of commit  
-`git diff file_name `						Compare committed file and current file
-`git checkout file_name`					Rollback previous version
-`git branch branch_name` 					Create new branch in git local
-`git branch`							List down number of branches
-`git checkout branch_name`					Change branch in cmd
-`git merge branch-name`						Merge branch_name to master
+`git init`			 				initialize local git repository <br/>
+`git status`							Stage check for file <br/>
+`git add file_name`						Add file for stage <br/>
+`git add .`							Add all file for stage <br/>
+`git commit -m "message"`					Commit file <br/>
+`git log `							History of commit  <br/>
+`git diff file_name `						Compare committed file and current file <br/>
+`git checkout file_name`					Rollback previous version <br/>
+`git branch branch_name` 					Create new branch in git local <br/>
+`git branch`							List down number of branches <br/>
+`git checkout branch_name`					Change branch in cmd <br/>
+`git merge branch-name`						Merge branch_name to master <br/>
 			
 
 #`git Remote repository command `
 
-`git remote add origin  git_repo_name`    			set remote repository 
-`git push -u origin master`					Push local file to remote in master branch
-`create file name .gitignore `					Add filename inside .gitignore to ignore stage and commit 
-`git rm --cached -r .`						Remove all file from staging area
-`git clone git_repo_name`					Clone the project to local machine
-`git clone --branch <branchname> url`				Clone from specific branch1
+`git remote add origin  git_repo_name`    			set remote repository  <br/>
+`git push -u origin master`					Push local file to remote in master branch <br/>
+`create file name .gitignore `					Add filename inside .gitignore to ignore stage and commit  <br/>
+`git rm --cached -r .`						Remove all file from staging area <br/>
+`git clone git_repo_name`					Clone the project to local machine <br/>
+`git clone --branch <branchname> url`				Clone from specific branch1 <br/>
 
 
 *****************
