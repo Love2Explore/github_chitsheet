@@ -101,5 +101,34 @@ http://git-annex.branchable.com/walkthrough/ #see ssh section
 
 `git remote set-url origin git@github.com:username/your-repository.git`
 
+
+### Local vs Remote Command
+
+`git Local repository command `
+
+`git init			 initialize local git repository `
+`git status			Stage check for file `
+`git add file_name			Add file for stage`
+`git add .			Add all file for stage`
+`git commit -m "message"			Commit file`
+`git log 			History of commit ` 
+`git diff file_name			Compare committed file and current file`
+`git checkout file_name			Rollback previous version`
+`git branch branch_name 			Create new branch in git local`
+`git branch			List down number of branches`
+`git checkout branch_name			Change branch in cmd`
+`git merge branch-name			Merge branch_name to master`
+			
+
+`git Remote repository command `
+
+`git remote add origin  git_repo_name    			set remote repository `
+`git push -u origin master			Push local file to remote in master branch`
+`create file name .gitignore 			Add filename inside .gitignore to ignore stage and commit `
+`git rm --cached -r .			Remove all file from staging area`
+`git clone git_repo_name			Clone the project to local machine`
+`git clone --branch <branchname> url			Clone from specific branch1
+
+
 *****************
 
