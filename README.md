@@ -104,10 +104,10 @@ http://git-annex.branchable.com/walkthrough/ #see ssh section
 
 ### Local vs Remote Command
 
-`git Local repository command `
+#`git Local repository command `
 
 `git init`			 				initialize local git repository 
-`git status`							Stage check for file 
+`git status`							Stage check for file
 `git add file_name`						Add file for stage
 `git add .`							Add all file for stage
 `git commit -m "message"`					Commit file
@@ -120,7 +120,7 @@ http://git-annex.branchable.com/walkthrough/ #see ssh section
 `git merge branch-name`						Merge branch_name to master
 			
 
-`git Remote repository command `
+#`git Remote repository command `
 
 `git remote add origin  git_repo_name`    			set remote repository 
 `git push -u origin master`					Push local file to remote in master branch
