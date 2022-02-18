@@ -133,7 +133,7 @@ http://git-annex.branchable.com/walkthrough/ #see ssh section
 *****************
 
 
-#` BTP Command
+### BTP Commands
 
 `Create a new Account in SAPÂ® BTP
 `https://account.hana.ondemand.com/
