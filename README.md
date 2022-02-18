@@ -132,3 +132,67 @@ http://git-annex.branchable.com/walkthrough/ #see ssh section
 
 *****************
 
+
+#` BTP Command
+
+`Create a new Account in SAPÂ® BTP
+`https://account.hana.ondemand.com/
+ 
+`Install CF CLI
+`https://github.com/cloudfoundry/cli/wiki/V6-CLI-Installation-Guide
+ 
+`Important and Basic CF CLI Commands:
+https://cli.cloudfoundry.org/en-US/v6/
+	
+`$ cf version
+`Version of CF CLI
+	
+`$ cf login
+`Login to Cloud Foundry via CLI
+ 
+`Flags:
+`	-a API_URL Example: https://api.cf.eu10.hana.ondemand.com
+`	-u USERNAME Example: Email ID
+`	-o ORG
+`	-s SPACE
+
+`$ cf marketplace
+`Getting services from marketplace
+ 
+	
+`$ cf buildpacks
+`Check What are all the App Buildpacks  Can be used
+ 
+ 
+`$ cf apps
+`List all apps in the target space
+ 
+ 
+`$ cf start|stop|restart <app-name>
+`Start or Stop or Restart an App
+ 
+ 
+`$  cf logs <app-name> --recent
+`Check Logs of the App
+ 
+ 
+`$ sudo cf app <App Name>
+`Check health and status for the app
+ 
+ 
+`$ sudo cf scale <App Name> -i INSTANCES
+`Number of Instance of the App with i in integer
+ 
+ 
+ 
+`$ sudo cf scale <App Name> -m 
+`Memory limit example 256M, 1024G, 1G etc.
+ 
+ 
+`$ sudo cf scale <App Name> -k
+`Disk Limit example 256M, 1024G, 1G etc.
+ 
+ 
+`$ sudo cf delete <App Name>
+`Delete the App and -f for forced 
+
