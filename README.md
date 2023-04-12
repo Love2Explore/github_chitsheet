@@ -28,8 +28,8 @@ http://git-scm.com/book/en/Git-Tools-Rewriting-History
 `git rebase --onto <commit-id>\^ <commit-id> HEAD`	remove specific commit from repository. the \ in \^ is just an escape   char to make zsh play nice and is not necessary if using bash.  
 
 ### remote repositories
-`git remote add origin git@example.com:example/petshop.git` add a remote repository  
-`git push -u origin master`			push current local repo to remote. -u sets it to default for the future  
+`git remote add origin git@example.com:example/petshop.git` or git remote set-url origin <your-copied-git-repo-url.git> add a remote repository / 
+`git push -u origin main`			push current local repo to remote. -u sets it to default for the future  
 `git remote -v show`				show the available remote repositories that have been added  
 `git pull`						checkout and merge remote changes in one go  
 `git fetch origin`						update the local cache of the remote repository  
