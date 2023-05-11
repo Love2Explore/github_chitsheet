@@ -37,8 +37,8 @@ http://git-scm.com/book/en/Git-Tools-Rewriting-History
 `git status -uno` will tell you whether the branch you are tracking is ahead, behind or has diverged. If it says nothing, the local and remote are the same.  
 `git show-branch *master` will show you the commits in all of the branches whose names end in master (eg master and origin/master).  
 `git show remote origin`			show local<->remote branch tracking and sync status  
-`git checkout -b <BTPCF-337>`                    It will create new Branch in Local with nam BTPCF-337
-`git push <Vir_GestioneBadge> <BTPCF-337>`           It will push the changes to Vir_GestioneBadge  repo , branch - BTPCF-337 and create new Branch with same name - BTPCF-337  
+`git checkout -b <BTPCF-337>`                    It will create new Branch in Local with nam BTPCF-337                                      
+`git push <Vir_GestioneBadge> <BTPCF-337>`       It will push the changes to Vir_GestioneBadge  repo , branch - BTPCF-337 and create new Branch with same name - BTPCF-337  
  
 
 ### Examine changes on remote, without pulling them
